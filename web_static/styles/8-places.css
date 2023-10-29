@@ -51,13 +51,14 @@ body footer {
 	margin-top: 40px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .information div {
 	display: inline-block;
 	margin: 0 auto;
-	height: 80px;
-	width: 100px;
+	height: 70px;
+	width: 70px;
 }
 
 .information .max_guest {
@@ -82,4 +83,17 @@ body footer {
 	background-repeat: no-repeat;
 	/*height: 60px;
 	width: 100px;*/
+}
+
+.information p {
+	font-size: 15px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.user p, .description p {
+	font-size: 15px;
+	float: left;
 }
