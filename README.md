@@ -219,3 +219,59 @@ Which is the HTTP method to create a resource
 Which is the HTTP method to update resource
 Which is the HTTP method to delete resource
 How to request REST API
+
+
+
+
+
+AirBnB_clone_v4:
+
+Resources:
+
+[Selector](https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/)
+[Get and set content](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/)
+[Manipulate CSS classes](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/)
+[Manipulate DOM elements](https://jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/)
+[Document ready](https://learn.jquery.com/using-jquery-core/document-ready/)
+[Introduction](https://jquery-tutorial.net/ajax/introduction/)
+[GET & POST request](https://jquery-tutorial.net/ajax/the-get-and-post-methods/)
+[HTTP access control (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+
+
+General
+How cool it is to request your own API
+How to modify an HTML element style
+How to get and update an HTML element content
+How to modify the DOM
+How to make a GET request with JQuery Ajax
+How to make a POST request with JQuery Ajax
+How to listen/bind to DOM events
+How to listen/bind to user events
+
+
+More Info
+Import JQuery
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+Before starting the project…
+You will work on a codebase using Flasgger, you will need to install it locally first before starting the RestAPI:
+
+$ sudo apt-get install -y python3-lxml
+$ sudo pip3 install flask_cors # if it was not installed yet
+$ sudo pip3 install flasgger
+
+
+If the RestAPI is not starting, please read the error message. Based on the(ses) error message(s), you will have to troubleshoot potential dependencies issues.
+
+Here some solutions:
+
+jsonschema exception
+$ sudo pip3 uninstall -y jsonschema
+$ sudo pip3 install jsonschema==3.0.1
+
+No module named 'pathlib2'
+$ sudo pip3 install pathlib2
+
+fork [code base](https://github.com/jzamora5/AirBnB_clone_v3)
